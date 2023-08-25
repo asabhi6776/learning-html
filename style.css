@@ -1,0 +1,50 @@
+.hero {
+  width: 100px;
+  float: left;
+  margin: 10px;
+  border-radius: 50px;
+}
+p.twitter {
+  color: aqua;
+  background-color: lavenderblush;
+}
+a.twitter-link {
+  font-weight: bolder;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.first-para {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  color: slategray;
+}
+
+button {
+  background-color: aquamarine;
+}
+
+pre {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav {
+  font-weight: bolder;
+  float: right;
+  padding: 5px;
+  background-color: aquamarine;
+}
+
+.nava {
+  padding: 5px;
+  color: blueviolet;
+}
+
+footer {
+  background-color: grey;
+}
+
+.footer-name {
+  float: right;
+  background-color: grey;
+  padding-right: 15px;
+}
