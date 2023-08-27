@@ -48,3 +48,31 @@ footer {
   background-color: grey;
   padding-right: 15px;
 }
+
+dl {
+  background-color: lightcyan;
+  border: 2px solid;
+}
+
+table {
+  background-color: lightgreen;
+}
+
+.t-header {
+  background-color: aquamarine;
+}
+
+.t-data {
+  background-color: aliceblue;
+}
+
+/* th {
+  width: 500;
+} */
+
+.new {
+  background-color: grey;
+  font-size: 25px;
+  color: lightblue;
+  border-radius: 25px;
+}
