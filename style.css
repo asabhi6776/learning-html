@@ -39,7 +39,7 @@ nav {
   color: blueviolet;
 }
 
-footer {
+footer.footer {
   background-color: grey;
 }
 
@@ -75,4 +75,47 @@ table {
   font-size: 25px;
   color: lightblue;
   border-radius: 25px;
+}
+
+footer.p.para {
+  float: right;
+}
+#id {
+  float: left;
+}
+
+.test-header {
+  background-color: antiquewhite;
+  border-style: groove;
+  border-color: aquamarine;
+  border-radius: 20px;
+}
+
+.test-hero {
+  width: 200px;
+  border-radius: 100px;
+  float: right;
+}
+
+p.p1-color {
+  color: rgb(108, 114, 216);
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: bold;
+}
+p.p2 {
+  color: rgb(123, 181, 123);
+  font-family: Loto, sans-serif;
+  font-weight: bold;
+  border-style: ridge;
+  border-color: brown;
+}
+
+#footer-test {
+  background-color: cornsilk;
+  font-size: medium;
+  font-family: 'JetBrains Mono', monospace;
+}
+
+#p-footer {
+  float: right;
 }
