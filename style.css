@@ -119,3 +119,56 @@ p.p2 {
 #p-footer {
   float: right;
 }
+
+.shadow-h1{
+  text-shadow: 3px 3px 5px rgb(203, 132, 132), -3px -3px 5px rgb(204, 241, 117);
+}
+
+#box{
+  width: 200px;
+  height: 200px;
+  background-color: aquamarine;
+  box-shadow: 3px 3px 5px;
+}
+
+.box-new {
+  border: 2px solid;
+  height: 100px;
+  width: 100px;
+}
+
+#box1 {
+  margin-top: 60px;
+  background-color: azure;
+  margin-left: 20px;
+}
+
+#box2 {
+  margin-top: 30px;
+  background-color: bisque;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+/* Display: flow-root; for containing operflowing object inside border. */
+
+.abhishek {
+  height: 100px;
+  width: 100px;
+  float: left;
+  margin-right: 10px;
+}
+
+.abhi2 {
+  height: 100px;
+  width: 100px;
+  float: right;
+  margin-left: 10px;
+}
+
+.float {
+  border: 3px solid;
+  display: flow-root;
+  margin: 5px;
+}
+
