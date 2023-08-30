@@ -172,3 +172,44 @@ p.p2 {
   margin: 5px;
 }
 
+.overflow {
+  border: 2px solid;
+  height: 75px;
+  overflow: auto;
+  /* overflow-clip-margin: 13px; */
+}
+
+.display-box {
+  background-color: red;
+  height: 100px;
+  width: 100px;
+  display: block; /* inline, inline-block, none */
+}
+
+.display-span {
+  background-color: aqua;
+  height: 100px;
+  width: 100px;
+  display: block;
+}
+
+.box3 {
+  border: 2px solid;
+  height: auto;
+  width: 30%;
+  float: left;
+  padding: 10px;
+  margin: 5px;
+  box-sizing: border-box;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.container {
+  height: 100vh;
+  background-color: powderblue;
+}
+
+* {
+  box-sizing: border-box;
+}
