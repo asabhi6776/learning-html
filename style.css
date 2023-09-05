@@ -247,3 +247,67 @@ p.p2 {
   background-attachment: fixed;
   background-size: cover;
 }
+
+/* Combinators */
+
+#con1{
+  border: 2px solid;
+}
+
+#con1 p{
+  background-color: yellowgreen;
+}
+
+#con1 > p{
+  background-color: aqua;
+}
+
+#con1 ~ p{
+  background-color: bisque;
+}
+
+#con1 + p{
+  background-color: rgb(212, 220, 239);
+}
+
+/* Pseudo-classes */
+
+a:link{
+  color: hsl(0, 49%, 37%);
+}
+
+a:hover {
+  color: cadetblue;
+  font-size: 1.1em;
+}
+
+a:active{
+  font-size: 1.1em;
+  color: darkblue;
+}
+
+a:visited{
+  color: gray;
+}
+
+li:hover{
+  background-color: aqua;
+}
+
+li:not(:hover){
+  background-color: cadetblue;
+}
+
+li:nth-child(3n+1){
+  background-color: yellow;
+}
+
+#greeting p{
+  background-color: lightblue;
+  padding: 10px;
+  display: none;
+}
+
+#greeting:hover p{
+  display: block;
+}
